@@ -67,7 +67,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "http://akses.rpj08.my.id:81/sc/set.sh"
+wget -O /etc/set.sh "https://raw.githubusercontent.com/yusrilsaja/zero.vpn/main/set.sh"
 chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
